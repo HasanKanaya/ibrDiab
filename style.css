@@ -3,3 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.parent {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+  background-image: url(./images/1.jpg);
+  background-size: cover;
+}
+
+.parent .text {
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.parent .randomChild {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
